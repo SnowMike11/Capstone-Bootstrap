@@ -1,0 +1,52 @@
+.gradient-background {
+    background: linear-gradient(300deg, #211951, #836FFF, #15F5BA);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    background-color: white;
+  }
+  .gray-section {
+    background-color: #F0F3FF;
+  }
+  .white-text {
+    color: white;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .greetings {
+    font-size: large;
+    font-weight: 500;
+  }
+  .lead {
+    font-size: x-large;
+    font-weight: 500;
+  }
+  .line {
+    background-color: #836FFF;
+    height: 6px;
+    width: 100px;
+  }
+  .rounded-picture {
+    border-radius: 50%;
+  }
+  .pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
